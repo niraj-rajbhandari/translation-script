@@ -1,0 +1,16 @@
+[ '/Users/nirajrajbhandari/.nvm/versions/node/v8.9.0/bin/node',
+  '/Users/nirajrajbhandari/i2g/translation_script/main.js',
+  '--base',
+  '../../translation_script/base.json',
+  '--source',
+  '../../translation_script/change.json',
+  '--command',
+  'diff' ]
+{ _: [],
+  base: '../../translation_script/base.json',
+  b: '../../translation_script/base.json',
+  source: '../../translation_script/change.json',
+  src: '../../translation_script/change.json',
+  command: 'diff',
+  c: 'diff',
+  '--': [] }
