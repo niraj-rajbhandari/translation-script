@@ -227,7 +227,7 @@
     "PAYMENT_REQUEST": "Request for payment",
     "REQUEST_FOR_PAYMENT": "Request for payment <span class='request-from'>from {{ companyName }}</span>",
     "STATEMENT": {
-      "OVERDUE": "Overdue balance {{ amount }}",
+      "OVERDU": "Overdue balance {{ amount }}",
       "OUTSTANDING": "Outstanding balance {{ amount }}",
       "TITLE_DESKTOP": "Statement <span class='request-from'>from {{ companyName }}</span>",
       "TITLE_MOBILE": "Statement for <span class='normal'>{{ clientName }}</span>"
@@ -238,7 +238,7 @@
     "THANK_YOU_FOR_PAYMENT": "Thank you for your payment!"
   },
   "TERMINAL": {
-    "PAYMENT_SUCCESS_EMAIL_CONFIRMATION": "Confirmation emails have been sent to you and your client (<strong class='payment-email'>{{ email }}</strong>).",
+    "PAYMENT_SUCCESS_EMAI_CONFIRMATION": "Confirmation emails have been sent to you and your client (<strong class='payment-email'>{{ email }}</strong>).",
     "PAYMENT_MANAGER_CHARGE": "Charge {{ currencyCode }} {{ amount }}",
     "PAYMENT_MANAGER_TERMS": "By tapping \"Charge\", you are agreeing to Invoice2go <a href='https://invoice.2go.com/paymentterms' target='_blank' class='payment-terms'>Payment Terms</a> and <a href='https://invoice.2go.com/privacyInline/' target='_blank' class='privacy-policy'>Privacy Policy</a>.",
     "PORTAL_HEADER": "Charge a card",
@@ -246,7 +246,7 @@
     "SECURITY_NOTICE_TEXT": "Invoice2go will not save your customer's card information"
   },
   "MAIN": {
-    "LOADER_TEXT": "Loading invoice...",
+    "LOADER_TEXT_TEXT": "Loading invoice...",
     "LOADER_TEXT_PAYPAL": "Contacting PayPal...",
     "PAYMENT_SUCCESS_EMAIL_CONFIRMATION": "A confirmation email has been sent to the business owner and <strong class='payment-email'>{{ email }}</strong>.",
     "PAYMENT_EDITOR_CHANGE_AMOUNT": "Change amount",
@@ -374,7 +374,7 @@
     }
   },
   "STATEMENT": {
-    "BULK_PAYMENT_UNSUPPORTED": "Bulk payment is currently not supported for this statement. Please view each invoice separately.",
+    "BULK_PAYMEN_UNSUPPORTED": "Bulk payment is currently not supported for this statement. Please view each invoice separately.",
     "CLICK_INVOICE_PAYABLE": "You can click on individual invoices for details or to make payments if applicable.",
     "CLICK_INVOICE_NON_PAYABLE": "You can click on individual invoices for details.",
     "SHOW_UNPAID_INVOICES": "Only show unpaid invoices",
@@ -418,8 +418,8 @@
         "CREDIT_MEMO": "Credit memo {{ docNumber }} summary"
       },
       "GO_TO": {
-        "INVOICE": "Go to invoice",
-        "CREDIT_MEMO": "Go to credit memo"
+        "INVOICE_TEST": "Go to invoice",
+        "CREDIT_MEMO_MEMO": "Go to credit memo"
       }
     }
   }

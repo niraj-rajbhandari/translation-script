@@ -4,21 +4,32 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "tsc script.ts && node script.js",
+    "start": "tsc difference.ts && node difference.js",
+    "build": "tsc main.ts",
+    "debug": "tsc script.ts && node --inspect script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "json-diff": "^0.5.3",
     "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
     "nodegit": "^0.23.0",
     "nodemon": "^1.18.5",
+    "simple-git": "^1.107.0",
     "transifex": "^1.5.0",
     "tslint": "^5.11.0",
     "typescript": "^3.1.5"
   },
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.1",
-    "@types/typescript": "^2.0.0"
+    "@types/sinon": "^5.0.7",
+    "@types/typescript": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
   }
 }
